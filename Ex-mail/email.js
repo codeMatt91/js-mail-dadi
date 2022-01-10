@@ -21,12 +21,18 @@ const emailList = ['matteo.imbimbo@yahoo.it', 'marina.92@gmail.com', 'valentina9
 //! # 2
 const userEmail = prompt('inserisci la tua mail:');
 
-// ! # 3
-const writeOutcome = document.getElementById('email');
-
-//! # 4
-if (emailList.includes(userEmail)) {
-   writeOutcome.innerText = `La mail ${userEmail} esiste nel sistema`;
+//! controllo che sia inserita veramente una mail
+if (!isNaN(userEmail)){
+   alert('inserisci una mail corretta')
 } else {
-   writeOutcome.innerText = `La mail ${userEmail} non esiste nel sistema`;
+
+   // ! # 3
+   const writeOutcome = document.getElementById('email');
+   
+   //! # 4
+   if (emailList.includes(userEmail)) {
+      writeOutcome.innerText = `La mail ${userEmail} esiste nel sistema`;
+   } else {
+      writeOutcome.innerText = `La mail ${userEmail} non esiste nel sistema`;
+   }
 }
