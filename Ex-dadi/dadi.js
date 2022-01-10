@@ -30,5 +30,5 @@ if (userNumber > pcNumber) {
 } else if (userNumber < pcNumber){
    writeElement.innerText = `I numeri usciti sono: l'utente =${userNumber}, il Pc =${pcNumber}. Il vincitore è il Pc`;
 } else {
-   writeElement.innerText = `PAREGGIOOOOOO`;
+   writeElement.innerText = `L'esito ha dato un : PAREGGIOOOOOO`;
 }
