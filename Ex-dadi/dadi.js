@@ -11,3 +11,20 @@
  4- stabilire il vincitore 
  5- stamparlo in pagina
 */
+
+console.log('JS OK!');
+
+//*  # 1
+const userNumber = Math.floor(Math.random() * 7);
+console.log(userNumber);
+
+//*  # 2
+const pcNumber = Math.floor(Math.random() * 7);
+console.log(pcNumber);
+
+//*  # 3
+const writeElement = document.getElementById('dadi');
+
+if (userNumber > pcNumber) {
+
+}
