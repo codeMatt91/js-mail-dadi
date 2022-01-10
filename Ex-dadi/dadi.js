@@ -22,9 +22,13 @@ console.log(userNumber);
 const pcNumber = Math.floor(Math.random() * 7);
 console.log(pcNumber);
 
-//*  # 3
+//*  # 3-4-5
 const writeElement = document.getElementById('dadi');
 
 if (userNumber > pcNumber) {
-
+   writeElement.innerText = `I numeri usciti sono: l'utente =${userNumber}, il Pc =${pcNumber}. Il vincitore sei tu`;
+} else if (userNumber < pcNumber){
+   writeElement.innerText = `I numeri usciti sono: l'utente =${userNumber}, il Pc =${pcNumber}. Il vincitore è il Pc`;
+} else {
+   writeElement.innerText = `PAREGGIOOOOOO`;
 }
