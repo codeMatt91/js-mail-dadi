@@ -19,7 +19,7 @@ console.log('JS ok!');
 const emailList = ['matteo.imbimbo@yahoo.it', 'marina.92@gmail.com', 'valentina91@libero.it', 'giulioleo@hotmail.com', 'giulia89@gmail.com'];
 
 //! # 2
-const userEmail = prompt('inserisci la tua mail:');
+const userEmail = prompt('inserisci la tua mail:').trim();
 
 //! controllo che sia inserita veramente una mail
 if (!isNaN(userEmail)){
