@@ -15,11 +15,11 @@
 console.log('JS OK!');
 
 //*  # 1
-const userNumber = Math.floor(Math.random() * 7);
+const userNumber = Math.floor(Math.random() * 6) + 1;
 console.log(userNumber);
 
 //*  # 2
-const pcNumber = Math.floor(Math.random() * 7);
+const pcNumber = Math.floor(Math.random() * 6) + 1;
 console.log(pcNumber);
 
 //*  # 3-4-5
